@@ -1,0 +1,51 @@
+#nav1 {
+   padding: 10px;
+   
+}
+
+header {
+    background-color: rgba(80, 79, 79, 0.351);
+    color: rgb(43, 43, 42);
+    height: 100px;
+    width: 30%;
+    // text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 0 auto;
+    border-bottom-left-radius: 250px 250px; 
+    border-bottom-right-radius: 250px 250px; 
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transition: 0.5s;
+    overflow: hidden;
+    
+    
+    
+        .htitle{
+            padding: 10px;
+            // overflow: hidden;
+            // float: none;
+            text-align: center;
+        }
+
+}
+.hhome{
+    text-align: left;
+     font-size: 2rem;
+     float: left;
+     padding-right: 50px;
+ }
+
+.rcontact{
+   
+    font-size: 2rem;
+    float: right;
+    
+}
+
+header:hover {
+    background-color: black;
+    width: 50%;
+    color: white;
+    overflow: hidden;
+}
